@@ -1,5 +1,7 @@
 provider "aws" {
   region = var.region
+  access_key = "***REMOVED***"
+  secret_key = "***REMOVED***"
 }
 
 resource "aws_network_interface" "intf" {
