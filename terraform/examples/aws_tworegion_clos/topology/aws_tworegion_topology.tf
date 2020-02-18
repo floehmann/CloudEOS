@@ -12,8 +12,6 @@ module "globals" {
 
 provider "aws" {
   region = module.globals.aws_regions["region1"]
-  access_key = "***REMOVED***"
-  secret_key = "***REMOVED***"
 }
 
 provider "arista" {
