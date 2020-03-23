@@ -4,9 +4,9 @@ topology = "AWS_CLOS"
 
 ## Get service_token from Arista Contact and replace empty string below
 cvaas = {
-  domain : "apiserver.cv-staging.corp.arista.io",
+  domain : "apiserver.cv-play.corp.arista.io",
   username : "admin",
-  server : "www.cv-staging.corp.arista.io",
+  server : "www.cv-play.corp.arista.io",
   service_token = "***REMOVED***"   #mandatory
 }
 
