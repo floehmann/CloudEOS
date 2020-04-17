@@ -1,6 +1,4 @@
 provider "aws" {
-  access_key = "***REMOVED***"
-  secret_key = "***REMOVED***"
   region     = var.aws_regions["region1"]
 }
 
